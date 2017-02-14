@@ -11,6 +11,17 @@ Version: 1.2
 @import "partials/typography";
 
 
+
+/*** Main wrapper *///
+#main-wrapper {
+	background: url(./images/photo-background.jpg);
+	background-attachment: fixed;
+	}
+
+#content {
+	background: none !important;
+}
+
 /*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar { // the sidebar sliding bar for mobil menu
 
@@ -29,6 +40,10 @@ Version: 1.2
 	padding-bottom: 0px!important;
 }
 
+.page-title-module-custom {
+	padding: 5px 0px;
+}
+
 /** footer **/
 // reach-bottom-cta
 #reach-bottom-cta{
@@ -37,6 +52,7 @@ Version: 1.2
 }
 // footer
 #footer {
+		background-color: rgba(0, 0, 0, 0.8) !important;
     a.reach-logo {
     	color: white;
     }
