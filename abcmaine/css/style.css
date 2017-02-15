@@ -18,26 +18,6 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
-/* standard Reach styling of Oshin */
-.title-module-wrap.page-title-module-custom {
-  padding: 10px 0px; }
-
-.left-sidebar-page,
-.right-sidebar-page,
-.no-sidebar-page .be-section-pad:first-child,
-.page-template-page-940-php #content,
-.no-sidebar-page #content-wrap,
-.portfolio-archives.no-sidebar-page #content-wrap {
-  padding-top: 40px;
-  padding-bottom: 40px; }
-
-.tatsu-module {
-  margin-bottom: 15px; }
-
-.page #comments {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important; }
-
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
