@@ -12,7 +12,7 @@ Version: 1.2
 
 /*** Main wrapper *///
 #main-wrapper {
-	background: url(./images/photo-background.jpg);
+	background: url(./images/photo-background_logo.jpg);
 	background-attachment: fixed;
 	}
 
@@ -32,14 +32,61 @@ Version: 1.2
 		}
 	}
 }
+
+/* Main Menu */
+img.menu-icon {
+	border: 0px;
+}
+
+#navigation a:hover, li.current_page_item{
+	img.menu-icon-gold {
+		opacity: 1;
+	}
+	img.menu-icon-white {
+		opacity: 0;
+	}
+	a {
+		color: #fec524 !important;
+	}
+}
+
+img.menu-icon-gold {
+	opacity: 0;
+}
+
+#navigation a img{
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition:  none;
+	-ms-transition: none;
+}
+
+div.mobile-menu ul#mobile-menu {
+	background-color: rgba(0, 0, 0, .85);
+	a {
+		color: white;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	li {
+		padding: 9px 0px 9px 45px;
+	}
+}
+
 /*** styling of content */
 .page-title-module-custom {
 	padding: 5px 0px;
+	background-color: rgba(0, 0, 0, .4) !important;
 }
 
 .page #comments {
 	padding-top: 0px!important;
 	padding-bottom: 0px!important;
+}
+
+#content .tatsu-section .tatsu-section-pad.clearfix {
+	padding: 30px 0px 30px 0px !important;
 }
 
 /** footer **/
