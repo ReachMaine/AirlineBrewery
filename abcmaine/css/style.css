@@ -28,6 +28,12 @@ i.fa-pull-right {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#rev_slider_2_1, #rev_slider_2_1_wrapper {
+  height: 650px !important; }
+
+#rev_slider_2_1_forcefullwidth .tp-fullwidth-forcer {
+  height: 650px !important; }
+
 /* Main Menu */
 img.menu-icon {
   border: 0px; }

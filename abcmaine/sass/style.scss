@@ -25,6 +25,15 @@ Version: 1.2
 
 }
 /*  header stuff - here */
+
+#rev_slider_2_1, #rev_slider_2_1_wrapper {
+		height: 650px !important;
+}
+
+#rev_slider_2_1_forcefullwidth .tp-fullwidth-forcer {
+	height: 650px !important;
+}
+
 #header-controls-right {
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
