@@ -1,0 +1,21 @@
+/* ----------- Colors ---------------------------------- */
+$airline-yellow: #fec524;
+/* ----------- end Colors ----------- */
+
+article.category-ales{
+  h5.post-title {
+    color: $airline-yellow;
+    font-size: 2.5em;
+  }
+  .beer_style, .beer_abv, .beer_ibu {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .beer_abv, .beer_ibu {
+    display: inline-block;
+  }
+  .beer_ibu {
+    margin-left: 10px;
+  }
+}

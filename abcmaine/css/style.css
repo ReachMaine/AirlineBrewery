@@ -18,6 +18,20 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+article.category-ales h5.post-title {
+  color: #fec524;
+  font-size: 2.5em; }
+article.category-ales .beer_style, article.category-ales .beer_abv, article.category-ales .beer_ibu {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.2em; }
+article.category-ales .beer_abv, article.category-ales .beer_ibu {
+  display: inline-block; }
+article.category-ales .beer_ibu {
+  margin-left: 10px; }
+
 /*** Main wrapper */
 #main-wrapper {
   background: url(./images/photo-background_logo.jpg);
