@@ -15,7 +15,10 @@ article.category-ales{
   .beer_abv, .beer_ibu {
     display: inline-block;
   }
+  .beer_style {
+    color: $airline-yellow;
+  }
   .beer_ibu {
-    margin-left: 10px;
+    margin-left: 15px;
   }
 }

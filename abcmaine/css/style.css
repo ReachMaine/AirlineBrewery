@@ -29,8 +29,10 @@ article.category-ales .beer_style, article.category-ales .beer_abv, article.cate
   line-height: 1.2em; }
 article.category-ales .beer_abv, article.category-ales .beer_ibu {
   display: inline-block; }
+article.category-ales .beer_style {
+  color: #fec524; }
 article.category-ales .beer_ibu {
-  margin-left: 10px; }
+  margin-left: 15px; }
 
 /*** Main wrapper */
 #main-wrapper {
