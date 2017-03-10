@@ -1,0 +1,160 @@
+/*
+Theme Name: abcmaine
+Description: Oshin Child Theme for Reach Maine
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+@import url("../oshin/style.css");
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* ----------- Typography ------------------------------- */
+i.fa-pull-left {
+  float: left;
+  padding-right: 5px; }
+
+i.fa-pull-right {
+  float: right;
+  padding-left: 5px; }
+
+/* ----------- end typography ----------- */
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+article.category-ales h5.post-title {
+  color: #fec524;
+  font-size: 2.5em; }
+
+article.category-ales .beer_style, article.category-ales .beer_abv, article.category-ales .beer_ibu {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.2em; }
+
+article.category-ales .beer_abv, article.category-ales .beer_ibu {
+  display: inline-block; }
+
+article.category-ales .beer_ibu {
+  margin-left: 10px; }
+
+/*** Main wrapper */
+#main-wrapper {
+  background: url(./images/photo-background_logo.jpg);
+  background-attachment: fixed; }
+
+#content {
+  background: none !important; }
+
+/*** slidebar in oshine slidebar is above main content *** */
+/*  header stuff - here */
+#rev_slider_2_1, #rev_slider_2_1_wrapper {
+  height: 650px !important; }
+
+#rev_slider_2_1_forcefullwidth .tp-fullwidth-forcer {
+  height: 650px !important; }
+
+/* Main Menu */
+img.menu-icon {
+  border: 0px; }
+
+#navigation a:hover img.menu-icon-gold, li.current_page_item img.menu-icon-gold {
+  opacity: 1; }
+
+#navigation a:hover img.menu-icon-white, li.current_page_item img.menu-icon-white {
+  opacity: 0; }
+
+#navigation a:hover a, li.current_page_item a {
+  color: #fec524 !important; }
+
+img.menu-icon-gold {
+  opacity: 0; }
+
+#navigation a img {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none; }
+
+div.mobile-menu ul#mobile-menu {
+  background-color: rgba(0, 0, 0, 0.85); }
+  div.mobile-menu ul#mobile-menu a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold; }
+  div.mobile-menu ul#mobile-menu li {
+    padding: 9px 0px 9px 45px; }
+
+/*** styling of content */
+.page-title-module-custom {
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.4) !important; }
+
+.page #comments {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
+
+#content .tatsu-section .tatsu-section-pad.clearfix {
+  padding: 30px 0px 30px 0px !important; }
+
+/** footer **/
+#reach-bottom-cta {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.8) !important; }
+  #footer a.reach-logo {
+    color: white; }
+  #footer .reach-logo:before {
+    content: url("images/reach-favicon.png");
+    padding-right: 4px; }
+
+/* *** keep this at the end *** */
+/* **** media **** */
+@media only screen and (max-width: 480px) {
+  .rev_slider, .header-hero-section {
+    height: 200px !important; }
+  .logo img {
+    height: 70px; }
+  .style4 .logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px; }
+  body.header-transparent #header #header-inner-wrap {
+    height: 110px; }
+  #header-controls-right, body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap {
+    line-height: 120px !important; } }
+
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  .rev_slider, .header-hero-section {
+    height: 400px !important; } }
+
+@media only screen and (max-width: 959px) {
+  img.menu-icon {
+    left: 7px;
+    top: 6px;
+    width: 30px; } }
+
+@media only screen and (min-width: 960px) {
+  nav ul {
+    position: absolute;
+    top: 25px; }
+  img.menu-icon {
+    top: -45px;
+    right: 17px;
+    width: 40px; }
+  .abc-menu-company img {
+    right: 32px; }
+  .abc-menu-news img {
+    right: 22px; }
+  .abc-menu-events img {
+    right: 25px; }
+  .abc-menu-brewery img {
+    right: 31px; }
+  .abc-menu-pub img {
+    right: 14px; }
+  .abc-menu-menu img {
+    right: 21px; }
+  .abc-menu-mug-club img {
+    right: 31px; }
+  .abc-menu-contact img {
+    right: 3px; } }
