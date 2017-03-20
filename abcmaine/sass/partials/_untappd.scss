@@ -1,0 +1,32 @@
+/* ===================================================== */
+/* Untappd menu on homepage----------------------------- */
+/* ===================================================== */
+
+.untappd-menu {
+  .menu-nav, .menu-info, .no-price, .pagination-container {
+    display: none;
+  }
+  .ut-menu-standard .menu-items-container .menu-item .beer .beer-details .beer-name span.beer-style {
+    display: block;
+    padding-left: 0px;
+    font-size: .9em;
+  }
+  .ut-menu-standard .menu-items-container .menu-item {
+    margin-bottom: 0px;
+  }
+  .ut-menu-standard .menu-items-container .menu-item .beer .beer-label{
+    width: 15%;
+  }
+  .ut-menu-standard .menu-items-container .menu-item .beer .beer-details{
+    width: 85%;
+    .item-meta {
+      text-align: right;
+    }
+  }
+  .ut-menu-standard .menu-items-container .menu-item {
+    padding: 0px;
+  }
+  .ut-menu-standard .section .section-heading .section-name {
+    font-size: 2em;
+  }
+}

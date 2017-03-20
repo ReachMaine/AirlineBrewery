@@ -34,6 +34,28 @@ article.category-ales .beer_style {
 article.category-ales .beer_ibu {
   margin-left: 15px; }
 
+/* ===================================================== */
+/* Untappd menu on homepage----------------------------- */
+/* ===================================================== */
+.untappd-menu .menu-nav, .untappd-menu .menu-info, .untappd-menu .no-price, .untappd-menu .pagination-container {
+  display: none; }
+.untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details .beer-name span.beer-style {
+  display: block;
+  padding-left: 0px;
+  font-size: .9em; }
+.untappd-menu .ut-menu-standard .menu-items-container .menu-item {
+  margin-bottom: 0px; }
+.untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-label {
+  width: 15%; }
+.untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details {
+  width: 85%; }
+  .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details .item-meta {
+    text-align: right; }
+.untappd-menu .ut-menu-standard .menu-items-container .menu-item {
+  padding: 0px; }
+.untappd-menu .ut-menu-standard .section .section-heading .section-name {
+  font-size: 2em; }
+
 /*** Main wrapper */
 #main-wrapper {
   background: url(./images/photo-background_logo.jpg);
