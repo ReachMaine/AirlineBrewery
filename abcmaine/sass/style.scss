@@ -86,6 +86,11 @@ div.mobile-menu ul#mobile-menu {
 }
 
 /*** styling of content */
+
+#content-wrap {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
 .page-title-module-custom {
 	padding: 5px 0px;
 	background-color: rgba(0, 0, 0, .4) !important;

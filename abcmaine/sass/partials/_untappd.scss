@@ -12,10 +12,13 @@
     font-size: .9em;
   }
   .ut-menu-standard .menu-items-container .menu-item {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
   }
   .ut-menu-standard .menu-items-container .menu-item .beer .beer-label{
     width: 15%;
+    img {
+      border-radius: 5%;
+    }
   }
   .ut-menu-standard .menu-items-container .menu-item .beer .beer-details{
     width: 85%;
@@ -29,4 +32,11 @@
   .ut-menu-standard .section .section-heading .section-name {
     font-size: 2em;
   }
+  .ut-menu-standard .section {
+    padding: 2px 0px;
+  }
+//  * {
+//    background: rgba(0, 0, 0, 0.6) !important;
+//    background-color: rgba(0, 0, 0, 0.6) !important;
+//  }
 }

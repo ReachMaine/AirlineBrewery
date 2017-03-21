@@ -137,3 +137,14 @@
 		}
 	}
 }
+
+@media only screen and (min-width: 1280px) {
+	.untappd-menu {
+		.ut-menu-standard .menu-items-container .menu-item .beer .beer-label{
+			margin-left: 10%;
+		}
+		.ut-menu-standard .menu-items-container .menu-item .beer .beer-details{
+			width: 73%;
+		}
+	}
+}

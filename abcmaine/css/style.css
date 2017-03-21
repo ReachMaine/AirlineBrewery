@@ -44,9 +44,11 @@ article.category-ales .beer_ibu {
   padding-left: 0px;
   font-size: .9em; }
 .untappd-menu .ut-menu-standard .menu-items-container .menu-item {
-  margin-bottom: 0px; }
+  margin-bottom: 5px; }
 .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-label {
   width: 15%; }
+  .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-label img {
+    border-radius: 5%; }
 .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details {
   width: 85%; }
   .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details .item-meta {
@@ -55,6 +57,8 @@ article.category-ales .beer_ibu {
   padding: 0px; }
 .untappd-menu .ut-menu-standard .section .section-heading .section-name {
   font-size: 2em; }
+.untappd-menu .ut-menu-standard .section {
+  padding: 2px 0px; }
 
 /*** Main wrapper */
 #main-wrapper {
@@ -103,6 +107,10 @@ div.mobile-menu ul#mobile-menu {
     padding: 9px 0px 9px 45px; }
 
 /*** styling of content */
+#content-wrap {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+
 .page-title-module-custom {
   padding: 5px 0px;
   background-color: rgba(0, 0, 0, 0.4) !important; }
@@ -187,3 +195,8 @@ div.mobile-menu ul#mobile-menu {
 
   .abc-menu-contact img {
     right: 3px; } }
+@media only screen and (min-width: 1280px) {
+  .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-label {
+    margin-left: 10%; }
+  .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details {
+    width: 73%; } }
