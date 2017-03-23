@@ -60,6 +60,28 @@
 			}
 		}
 	}
+	#bottom-widgets {
+		.tatsu-icon-group {
+		text-align: center !important;
+		}
+		h4 {
+			text-align: center;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#bottom-widgets {
+		.one-third:nth-child(1){
+			width: 15%;
+		}
+		.one-third:nth-child(2){
+			width: 53%;
+		}
+		.one-third:nth-child(3){
+			width: 20%;
+		}
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 959px) {

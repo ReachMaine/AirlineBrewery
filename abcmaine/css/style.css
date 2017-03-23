@@ -69,6 +69,15 @@ article.category-ales .beer_ibu {
   background: none !important; }
 
 /*** slidebar in oshine slidebar is above main content *** */
+/* Top Bar */
+.top-bar-widgets .tatsu-icon-group {
+  display: inline; }
+  .top-bar-widgets .tatsu-icon-group .tatsu-icon-shortcode {
+    padding-left: 5px; }
+.top-bar-widgets .abc-social {
+  width: 25px;
+  height: 25px; }
+
 /*  header stuff - here */
 #rev_slider_2_1, #rev_slider_2_1_wrapper {
   height: 650px !important; }
@@ -115,6 +124,14 @@ div.mobile-menu ul#mobile-menu {
   padding: 5px 0px;
   background-color: rgba(0, 0, 0, 0.4) !important; }
 
+.abc-content {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7); }
+
+.abc-contact-location-photo {
+  height: 250px; }
+
 .page #comments {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
@@ -126,6 +143,38 @@ div.mobile-menu ul#mobile-menu {
 #reach-bottom-cta {
   margin-top: 40px;
   margin-bottom: 40px; }
+
+#bottom-widgets {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #bottom-widgets .one-third:nth-child(2) {
+    padding-left: 3%;
+    padding-right: 3%; }
+    #bottom-widgets .one-third:nth-child(2) img {
+      display: none; }
+  #bottom-widgets .column-block {
+    margin-left: 2%; }
+  #bottom-widgets .tatsu-icon-group {
+    text-align: left !important; }
+  #bottom-widgets .tatsu-icon-shortcode {
+    margin-left: 0px !important; }
+  #bottom-widgets ul#menu-main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #bottom-widgets ul#menu-main-menu li {
+      padding-left: 15px;
+      font-weight: bold;
+      font-size: 1.2em; }
+      #bottom-widgets ul#menu-main-menu li a {
+        left: 0px; }
+      #bottom-widgets ul#menu-main-menu li a:hover {
+        color: white; }
+    #bottom-widgets ul#menu-main-menu li:first-child {
+      padding-left: 0px; }
+    #bottom-widgets ul#menu-main-menu li:before {
+      content: none; }
 
 #footer {
   background-color: rgba(0, 0, 0, 0.8) !important; }
@@ -154,6 +203,18 @@ div.mobile-menu ul#mobile-menu {
 
   #header-controls-right, body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap {
     line-height: 120px !important; } }
+@media only screen and (max-width: 767px) {
+  #bottom-widgets .tatsu-icon-group {
+    text-align: center !important; }
+  #bottom-widgets h4 {
+    text-align: center; } }
+@media only screen and (min-width: 768px) {
+  #bottom-widgets .one-third:nth-child(1) {
+    width: 15%; }
+  #bottom-widgets .one-third:nth-child(2) {
+    width: 53%; }
+  #bottom-widgets .one-third:nth-child(3) {
+    width: 20%; } }
 @media only screen and (min-width: 481px) and (max-width: 959px) {
   .rev_slider, .header-hero-section {
     height: 400px !important; } }

@@ -26,6 +26,21 @@ Version: 1.2
 .sb-slidebar { // the sidebar sliding bar for mobil menu
 
 }
+/* Top Bar */
+.top-bar-widgets{
+	.tatsu-icon-group {
+	display: inline;
+	.tatsu-icon-shortcode {
+		padding-left: 5px;
+	}
+	}
+	.abc-social {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+
 /*  header stuff - here */
 
 #rev_slider_2_1, #rev_slider_2_1_wrapper {
@@ -96,6 +111,16 @@ div.mobile-menu ul#mobile-menu {
 	background-color: rgba(0, 0, 0, .4) !important;
 }
 
+.abc-content {
+	padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, .7);
+}
+
+.abc-contact-location-photo {
+	height: 250px;
+}
+
 .page #comments {
 	padding-top: 0px!important;
 	padding-bottom: 0px!important;
@@ -112,15 +137,59 @@ div.mobile-menu ul#mobile-menu {
 	margin-bottom: 40px;
 }
 // footer
+#bottom-widgets {
+	background-color: rgba(0, 0, 0, .7) !important;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	.one-third:nth-child(2){
+		padding-left: 3%;
+		padding-right: 3%;
+		img {
+			display: none;
+		}
+	}
+	.column-block{
+		margin-left: 2%;
+	}
+	.tatsu-icon-group {
+		text-align: left !important;
+	}
+	.tatsu-icon-shortcode {
+		margin-left: 0px !important;
+	}
+	ul#menu-main-menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		li {
+			padding-left: 15px;
+			font-weight: bold;
+			font-size: 1.2em;
+			a {
+				left:0px;
+			}
+			a:hover {
+				color: white;
+			}
+		}
+		li:first-child{
+			padding-left: 0px;
+		}
+		li:before{
+			content: none;
+		}
+	}
+}
+
 #footer {
 	background-color: rgba(0, 0, 0, 0.8) !important;
-    a.reach-logo {
-    	color: white;
-    }
-    .reach-logo:before {
-    	content: url('images/reach-favicon.png');
-    	padding-right: 4px;
-    }
+  a.reach-logo {
+  	color: white;
+  }
+  .reach-logo:before {
+  	content: url('images/reach-favicon.png');
+  	padding-right: 4px;
+  }
 }
 /* *** keep this at the end *** */
 @import "partials/media";
