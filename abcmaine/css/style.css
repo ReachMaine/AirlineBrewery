@@ -70,13 +70,41 @@ article.category-ales .beer_ibu {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /* Top Bar */
-.top-bar-widgets .tatsu-icon-group {
+.tatsu-icon-group {
   display: inline; }
-  .top-bar-widgets .tatsu-icon-group .tatsu-icon-shortcode {
+  .tatsu-icon-group .tatsu-icon-shortcode {
     padding-left: 5px; }
-.top-bar-widgets .abc-social {
+
+.abc-social {
   width: 25px;
   height: 25px; }
+
+img.abc-social.abc-social-white {
+  position: relative;
+  right: 29px;
+  opacity: 0; }
+
+.abc-social-tripadvisor a:hover .abc-social-gold, .abc-social-untappd a:hover .abc-social-gold {
+  opacity: 0; }
+.abc-social-tripadvisor a:hover .abc-social-white, .abc-social-untappd a:hover .abc-social-white {
+  opacity: 1; }
+
+.tatsu-icon-shortcode {
+  margin-left: 5px !important; }
+  .tatsu-icon-shortcode .tatsu-icon {
+    transition: none !important;
+    margin-right: 0px; }
+  .tatsu-icon-shortcode a {
+    vertical-align: top; }
+
+img.abc-social {
+  vertical-align: baseline; }
+
+.abc-social-untappd {
+  margin-left: -23px; }
+
+.abc-social-tripadvisor {
+  margin-left: 10px; }
 
 /*  header stuff - here */
 #rev_slider_2_1, #rev_slider_2_1_wrapper {
@@ -153,7 +181,7 @@ div.mobile-menu ul#mobile-menu {
     padding-right: 3%; }
     #bottom-widgets .one-third:nth-child(2) img {
       display: none; }
-  #bottom-widgets .column-block {
+  #bottom-widgets .column-block:not(:first-child) {
     margin-left: 2%; }
   #bottom-widgets .tatsu-icon-group {
     text-align: left !important; }
@@ -166,7 +194,7 @@ div.mobile-menu ul#mobile-menu {
     #bottom-widgets ul#menu-main-menu li {
       padding-left: 15px;
       font-weight: bold;
-      font-size: 1.2em; }
+      font-size: 1.1em; }
       #bottom-widgets ul#menu-main-menu li a {
         left: 0px; }
       #bottom-widgets ul#menu-main-menu li a:hover {
@@ -183,6 +211,25 @@ div.mobile-menu ul#mobile-menu {
   #footer .reach-logo:before {
     content: url("images/reach-favicon.png");
     padding-right: 4px; }
+
+#bottom-widgets .widget.footer-menu {
+  margin-bottom: 15px; }
+#bottom-widgets img {
+  right: 28px; }
+#bottom-widgets .abc-social-tripadvisor {
+  margin-left: 5px !important; }
+  #bottom-widgets .abc-social-tripadvisor img.abc-social.abc-social-white {
+    right: 28px; }
+#bottom-widgets .abc-social-untappd {
+  margin-left: -28px !important; }
+  #bottom-widgets .abc-social-untappd img {
+    right: 29px; }
+
+/* Mailchimp */
+#mc_embed_signup {
+  background: none !important; }
+  #mc_embed_signup label {
+    color: #FEC524; }
 
 /* *** keep this at the end *** */
 /* **** media **** */
@@ -210,9 +257,9 @@ div.mobile-menu ul#mobile-menu {
     text-align: center; } }
 @media only screen and (min-width: 768px) {
   #bottom-widgets .one-third:nth-child(1) {
-    width: 15%; }
+    width: 19%; }
   #bottom-widgets .one-third:nth-child(2) {
-    width: 53%; }
+    width: 51%; }
   #bottom-widgets .one-third:nth-child(3) {
     width: 20%; } }
 @media only screen and (min-width: 481px) and (max-width: 959px) {
