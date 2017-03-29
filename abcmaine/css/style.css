@@ -107,11 +107,34 @@ img.abc-social {
   margin-left: 10px; }
 
 /*  header stuff - here */
+/* fixing mobile menu */
+#header-controls-right {
+  display: inline !important;
+  float: right !important;
+  padding-right: 30px !important; }
+
+.logo {
+  display: inline !important;
+  float: left; }
+  .logo a {
+    display: inline !important; }
+    .logo a img:first-child {
+      display: inline !important; }
+
 #rev_slider_2_1, #rev_slider_2_1_wrapper {
   height: 650px !important; }
 
 #rev_slider_2_1_forcefullwidth .tp-fullwidth-forcer {
   height: 650px !important; }
+
+body.header-transparent #header #header-inner-wrap {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+body:not(.home).header-transparent #header #header-inner-wrap {
+  position: relative; }
+
+.logo img {
+  padding: 20px 0px 20px 30px; }
 
 /* Main Menu */
 img.menu-icon {
@@ -135,7 +158,7 @@ img.menu-icon-gold {
   -ms-transition: none; }
 
 div.mobile-menu ul#mobile-menu {
-  background-color: rgba(0, 0, 0, 0.85); }
+  background-color: rgba(0, 0, 0, 0.95); }
   div.mobile-menu ul#mobile-menu a {
     color: white;
     font-size: 24px;
@@ -150,7 +173,7 @@ div.mobile-menu ul#mobile-menu {
 
 .page-title-module-custom {
   padding: 5px 0px;
-  background-color: rgba(0, 0, 0, 0.4) !important; }
+  background-color: rgba(0, 0, 0, 0.8) !important; }
 
 .abc-content {
   padding: 10px;
@@ -159,6 +182,8 @@ div.mobile-menu ul#mobile-menu {
 
 .abc-contact-location-photo {
   height: 250px; }
+  .abc-contact-location-photo .tatsu-column-inner {
+    height: 250px !important; }
 
 .page #comments {
   padding-top: 0px !important;
@@ -251,6 +276,10 @@ div.mobile-menu ul#mobile-menu {
   #header-controls-right, body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap {
     line-height: 120px !important; } }
 @media only screen and (max-width: 767px) {
+  .abc-footer-social-widgets {
+    text-align: center;
+    padding-left: 21px; }
+
   #bottom-widgets .tatsu-icon-group {
     text-align: center !important; }
   #bottom-widgets h4 {
@@ -273,7 +302,8 @@ div.mobile-menu ul#mobile-menu {
 @media only screen and (min-width: 960px) {
   nav ul {
     position: absolute;
-    top: 25px; }
+    top: 60px;
+    left: 145px; }
 
   img.menu-icon {
     top: -45px;

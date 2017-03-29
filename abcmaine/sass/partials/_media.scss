@@ -22,6 +22,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.abc-footer-social-widgets {
+		text-align: center;
+		padding-left: 21px;
+	}
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
 			.one-third {
@@ -102,7 +106,8 @@
 
 	nav ul {
 		position: absolute;
-		top: 25px;
+		top: 60px;
+		left: 145px;
 	}
 
 	img.menu-icon {
