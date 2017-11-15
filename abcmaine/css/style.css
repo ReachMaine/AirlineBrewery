@@ -60,6 +60,18 @@ article.category-ales .beer_ibu {
 .untappd-menu .ut-menu-standard .section {
   padding: 2px 0px; }
 
+/* styling for imenupro */
+#page-content .imp-wrapper-match2 {
+  padding-bottom: 20px; }
+  #page-content .imp-wrapper-match2 #imp-love {
+    display: none; }
+  #page-content .imp-wrapper-match2 .imp-heading,
+  #page-content .imp-wrapper-match2 .imp-normal-heading {
+    text-align: center !important; }
+    #page-content .imp-wrapper-match2 .imp-heading .imp-title-heading,
+    #page-content .imp-wrapper-match2 .imp-normal-heading .imp-title-heading {
+      max-width: 100% !important; }
+
 /*** Main wrapper */
 #main-wrapper {
   background: url(./images/photo-background_logo.jpg);
@@ -175,8 +187,11 @@ div.mobile-menu ul#mobile-menu {
   padding: 5px 0px;
   background-color: rgba(0, 0, 0, 0.8) !important; }
 
+.tatsu-column {
+  margin-bottom: 0px; }
+
 .abc-content {
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.7); }
 

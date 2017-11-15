@@ -1,0 +1,17 @@
+/* styling for imenupro */
+#page-content {
+  .imp-wrapper-match2 {
+    padding-bottom: 20px;
+    #imp-love {
+      display: none; // the the pwered by imenu pro
+    }
+    .imp-heading, // heading containers
+    .imp-normal-heading {
+      text-align: center!important;
+      .imp-title-heading { // heading text.
+        max-width: 100%!important;
+      }
+      //max-width: 100%!important;
+    }
+  }
+}

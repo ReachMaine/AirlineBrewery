@@ -1,0 +1,11 @@
+/* styling for imenupro */
+#page-content .imp-wrapper-match2 {
+  padding-bottom: 20px; }
+  #page-content .imp-wrapper-match2 #imp-love {
+    display: none; }
+  #page-content .imp-wrapper-match2 .imp-heading,
+  #page-content .imp-wrapper-match2 .imp-normal-heading {
+    text-align: center !important; }
+    #page-content .imp-wrapper-match2 .imp-heading .imp-title-heading,
+    #page-content .imp-wrapper-match2 .imp-normal-heading .imp-title-heading {
+      max-width: 100% !important; }

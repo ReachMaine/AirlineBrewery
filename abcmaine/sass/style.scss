@@ -11,6 +11,7 @@ Version: 1.2
 @import "partials/typography";
 @import "partials/ales";
 @import "partials/untappd";
+@import "partials/imenupro";
 
 /*** Main wrapper *///
 #main-wrapper {
@@ -174,9 +175,11 @@ div.mobile-menu ul#mobile-menu {
 	padding: 5px 0px;
 	background-color: rgba(0, 0, 0, .8) !important;
 }
-
+.tatsu-column {
+	margin-bottom: 0px;
+}
 .abc-content {
-	padding: 10px;
+	padding: 20px;
   border-radius: 10px;
   background: rgba(0, 0, 0, .7);
 }
