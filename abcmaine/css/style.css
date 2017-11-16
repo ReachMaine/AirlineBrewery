@@ -82,6 +82,22 @@ article.category-ales .beer_ibu {
   background: rgba(0, 0, 0, 0.7);
   padding: 20px; }
 
+#tribe-events-content.tribe-events-single .abc-single-event {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px; }
+  #tribe-events-content.tribe-events-single .abc-single-event h1.tribe-events-single-event-title {
+    color: #fec524; }
+  #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-schedule h2 {
+    color: #efefef; }
+  #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta {
+    background: transparent;
+    border: 0px; }
+    #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta .tribe-events-single-section-title {
+      color: #efefef; }
+#tribe-events-content.tribe-events-single #tribe-events-footer {
+  border-top: 0px; }
+
 @media only screen and (min-width: 769px) {
   .tribe-events-list .tribe-events-loop .abc-event-wrap .abc-event-title-wrap {
     width: 65%;

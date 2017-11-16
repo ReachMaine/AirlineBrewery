@@ -14,6 +14,7 @@
 // add_action( 'init', 'be_restore_default_gallery');
 
   require_once(get_stylesheet_directory().'/custom/branding.php');
+  require_once(get_stylesheet_directory().'/custom/tribe_events.php');
   //require_once(get_stylesheet_directory().'/custom/bottom-CTA.php');
 
 ?>
