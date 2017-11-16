@@ -47,7 +47,7 @@
       }
     }
     #tribe-events-footer {
-      border-top: 0px; // 
+      border-top: 0px; //
     }
   }
 
@@ -69,6 +69,7 @@
 
 // mobile
 @media only screen and (max-width: 768px) {
+  .single-tribe_events .tribe-events-schedule,
   .tribe-events-loop .tribe-events-event-meta {
     background-color: transparent;
     border: 0px;

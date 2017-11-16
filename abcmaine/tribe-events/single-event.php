@@ -57,21 +57,25 @@ $event_id = get_the_ID();
 
 		<?php while ( have_posts() ) :  the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<!-- Event featured image, but exclude link -->
-				<?php echo tribe_event_featured_image( $event_id, 'full', false ); ?>
+				<div class="abc-single-event-image_wrap">
+					<!-- Event featured image, but exclude link -->
+					<?php echo tribe_event_featured_image( $event_id, 'full', false ); ?>
+				</div> <!-- abc-single-event-image_wrap -->
 
-				<!-- Event content -->
-				<?php do_action( 'tribe_events_single_event_before_the_content' ) ?>
-				<div class="tribe-events-single-event-description tribe-events-content">
-					<?php the_content(); ?>
-				</div>
-				<!-- .tribe-events-single-event-description -->
-				<?php do_action( 'tribe_events_single_event_after_the_content' ) ?>
+				<div class="abc-single-event-desc">
+					<!-- Event content -->
+					<?php do_action( 'tribe_events_single_event_before_the_content' ) ?>
+					<div class="tribe-events-single-event-description tribe-events-content">
+						<?php the_content(); ?>
+					</div>
+					<!-- .tribe-events-single-event-description -->
+					<?php do_action( 'tribe_events_single_event_after_the_content' ) ?>
 
-				<!-- Event meta -->
-				<?php do_action( 'tribe_events_single_event_before_the_meta' ) ?>
-				<?php tribe_get_template_part( 'modules/meta' ); ?>
-				<?php do_action( 'tribe_events_single_event_after_the_meta' ) ?>
+					<!-- Event meta -->
+					<?php do_action( 'tribe_events_single_event_before_the_meta' ) ?>
+					<?php tribe_get_template_part( 'modules/meta' ); ?>
+					<?php do_action( 'tribe_events_single_event_after_the_meta' ) ?>
+				</div> <!--abc-single-event-desc -->
 			</div> <!-- #post-x -->
 			<?php if ( get_post_type() == Tribe__Events__Main::POSTTYPE && tribe_get_option( 'showComments', false ) ) comments_template() ?>
 		<?php endwhile; ?>

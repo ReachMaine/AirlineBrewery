@@ -103,6 +103,7 @@ article.category-ales .beer_ibu {
     width: 65%;
     float: left; } }
 @media only screen and (max-width: 768px) {
+  .single-tribe_events .tribe-events-schedule,
   .tribe-events-loop .tribe-events-event-meta {
     background-color: transparent;
     border: 0px;
