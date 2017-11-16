@@ -28,6 +28,11 @@ $has_venue_address = ( ! empty( $venue_details['address'] ) ) ? ' location' : ''
 $organizer = tribe_get_organizer();
 
 ?>
+<div class="abc-event-wrap"> <?php /* zig */ ?>
+<!-- Event Image  zig moved up to here.  -->
+<?php echo tribe_event_featured_image( null, 'medium' ); ?>
+
+<div class="abc-event-title-wrap"> <?php /* zig */ ?>
 
 <!-- Event Title -->
 <?php do_action( 'tribe_events_before_the_event_title' ) ?>
@@ -83,9 +88,8 @@ $organizer = tribe_get_organizer();
 <?php endif; ?>
 
 <?php do_action( 'tribe_events_after_the_meta' ) ?>
-
-<!-- Event Image -->
-<?php echo tribe_event_featured_image( null, 'medium' ); ?>
+</div> <!-- abc-event-title container -->
+</div> <!-- abc-event-wrap -->
 
 <!-- Event Content -->
 <?php /* zig xout  do_action( 'tribe_events_before_the_content' ); ?>

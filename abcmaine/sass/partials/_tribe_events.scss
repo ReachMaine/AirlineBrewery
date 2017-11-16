@@ -1,0 +1,48 @@
+/* styling for tribe-events */
+
+
+// list styling
+#tribe-events {
+  .tribe-events-list {
+    .tribe-events-page-title {
+      display: none;
+    }
+    .tribe-events-loop {
+      .tribe-events-list-separator-month {
+        span {
+          color: black;
+        }
+      }
+      .type-tribe_events { // individual events;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, .7);
+        padding: 20px;
+      }
+    }
+  }
+}
+
+// laptop & desktop
+@media only screen and (min-width: 769px) {
+  .tribe-events-list {
+    .tribe-events-loop {
+      .abc-event-wrap {
+        .abc-event-title-wrap {
+          width: 65%;
+          float: left;
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media only screen and (max-width: 768px) {
+  .tribe-events-loop .tribe-events-event-meta {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+}
