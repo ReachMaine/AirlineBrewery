@@ -60,6 +60,11 @@ article.category-ales .beer_ibu {
 .untappd-menu .ut-menu-standard .section {
   padding: 2px 0px; }
 
+.untappd-menu .ut-menu .tab-content .section .section-name {
+  font-family: "Roboto Slab", "Open Sans", Arial, sans-serif; }
+.untappd-menu .ut-menu .tab-content .section .section-items-container .beer .beer-details .beer-name a {
+  font-family: "Roboto Slab", "Open Sans", Arial, sans-serif; }
+
 /* styling for imenupro */
 #page-content .imp-wrapper-match2 {
   padding-bottom: 20px; }

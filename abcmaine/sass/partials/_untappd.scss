@@ -35,8 +35,28 @@
   .ut-menu-standard .section {
     padding: 2px 0px;
   }
-//  * {
-//    background: rgba(0, 0, 0, 0.6) !important;
-//    background-color: rgba(0, 0, 0, 0.6) !important;
-//  }
 }
+.untappd-menu {
+  .ut-menu {
+    .tab-content {
+      .section {
+        .section-heading {
+        }
+        .section-name {
+          font-family: "Roboto Slab", "Open Sans", Arial, sans-serif;
+        }
+        .section-items-container {
+          .beer {
+            .beer-details {
+              .beer-name {
+                a {
+                  font-family: "Roboto Slab", "Open Sans", Arial, sans-serif;
+                }
+              } // beer-name
+            } // beer-details
+          } // beer
+        } // section-items-container
+      } // section
+    } // tab-content
+  } // ut-menu
+} // untappd-menu
