@@ -233,6 +233,8 @@ div.mobile-menu ul#mobile-menu {
 .tatsu-column {
   margin-bottom: 0px; }
 
+.archive.category article,
+.single-post article,
 .abc-content {
   padding: 20px;
   border-radius: 10px;
@@ -249,6 +251,11 @@ div.mobile-menu ul#mobile-menu {
 
 #content .tatsu-section .tatsu-section-pad.clearfix {
   padding: 30px 0px 30px 0px !important; }
+
+.blog-separator {
+  display: none;
+  padding: 0px;
+  margin: 0px; }
 
 /** footer **/
 #reach-bottom-cta {
