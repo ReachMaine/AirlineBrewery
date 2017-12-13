@@ -58,7 +58,7 @@ $post_format = get_post_format();
 
 					       	 			    echo '<div class="be-wrap clearfix be-section-pad">'.$content.'</div>';
 					       	 			} else {
-													if (is_single()) {
+												if (is_single() && get_post_meta(get_the_ID(), 'reach_disable_thumb', true) != 'yes') {
 														get_template_part( 'content', $post_format );
 													}
 											the_content( __('Read More','oshin') );
