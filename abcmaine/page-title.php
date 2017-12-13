@@ -1,6 +1,6 @@
 <?php
 if(is_category()) {
-	echo __('Category: ','oshin').single_cat_title( '', false );
+	echo /* zig xout __('Category: ','oshin'). */single_cat_title( '', false );
 } elseif(is_tag()) {
 	echo __('Articles Tagged with: ','oshin').single_tag_title( '', false );
 } elseif (is_search()) {

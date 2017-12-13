@@ -104,7 +104,7 @@
 
 @media only screen and (min-width: 960px) {
 
-	nav ul {
+	#navigation ul {
 		position: absolute;
 		top: 60px;
 		left: 145px;
@@ -163,7 +163,17 @@
 			right: 3px;
 		}
 	}
-}
+	.single-post .style2-blog  {
+		article {
+			.post-thumb {
+				  width: 60%;
+					float: right;
+					padding-left: 15px;
+			} // thumb
+		} // article
+	} // single post
+
+} // min-width: 960px
 
 @media only screen and (min-width: 1280px) {
 	.untappd-menu {

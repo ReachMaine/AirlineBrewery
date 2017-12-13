@@ -252,10 +252,20 @@ div.mobile-menu ul#mobile-menu {
 #content .tatsu-section .tatsu-section-pad.clearfix {
   padding: 30px 0px 30px 0px !important; }
 
+.single-post .style2-blog .blog-post,
+.style2-blog .blog-post .post-content-wrap {
+  margin-bottom: 0px; }
+
+.archive.category article {
+  margin-bottom: 20px; }
+
 .blog-separator {
   display: none;
   padding: 0px;
   margin: 0px; }
+
+.sharedaddy h3.sd-title {
+  color: #dadada; }
 
 /** footer **/
 #reach-bottom-cta {
@@ -365,7 +375,7 @@ div.mobile-menu ul#mobile-menu {
     top: 6px;
     width: 30px; } }
 @media only screen and (min-width: 960px) {
-  nav ul {
+  #navigation ul {
     position: absolute;
     top: 60px;
     left: 145px; }
@@ -397,7 +407,12 @@ div.mobile-menu ul#mobile-menu {
     right: 31px; }
 
   .abc-menu-contact img {
-    right: 3px; } }
+    right: 3px; }
+
+  .single-post .style2-blog article .post-thumb {
+    width: 60%;
+    float: right;
+    padding-left: 15px; } }
 @media only screen and (min-width: 1280px) {
   .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-label {
     margin-left: 10%; }

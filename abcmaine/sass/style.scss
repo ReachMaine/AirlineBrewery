@@ -204,10 +204,22 @@ div.mobile-menu ul#mobile-menu {
 	padding: 30px 0px 30px 0px !important;
 }
 // blog specific stuff
+ .single-post .style2-blog .blog-post,
+ .style2-blog .blog-post .post-content-wrap {
+	 margin-bottom: 0px;
+ }
+ .archive.category article {
+	 margin-bottom: 20px;
+ }
 .blog-separator {
 	display: none;
 	padding: 0px;
 	margin: 0px;
+}
+.sharedaddy { // div.sharedaddy h3.sd-title
+	h3.sd-title {
+		color: $abc-2nd-white-font;
+	}
 }
 
 /** footer **/
