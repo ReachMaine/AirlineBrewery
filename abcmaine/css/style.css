@@ -153,7 +153,7 @@ img.abc-social.abc-social-white {
     vertical-align: top; }
 
 img.abc-social {
-  vertical-align: baseline; }
+  margin-top: -4px; }
 
 .abc-social-untappd {
   margin-left: -23px; }
