@@ -3,16 +3,28 @@
     function reach_widgets_init() {
       register_sidebar(
          array(
-             'name' => __( 'Bottom Call to Action ', 'be-themes' ),
+             'name' => __( 'Reach Call to Action ', 'be-themes' ),
              'id'   => 'reach-bottom-cta',
-             'description'   => __( 'Widget area (above footer)', 'be-themes' ),
+             'description'   => __( 'Widget area below Content', 'be-themes' ),
              'before_widget' => '<div class="%2$s widget">',
              'after_widget'  => '</div>',
              'before_title'  => '<h6>',
              'after_title'   => '</h6>',
            )
        );
-    }
+
+    register_sidebar(
+       array(
+           'name' => __( 'Reach Footer ', 'be-themes' ),
+           'id'   => 'reach-above-footer',
+           'description'   => __( 'Widget area (at top of footer)', 'be-themes' ),
+           'before_widget' => '<div class="%2$s widget">',
+           'after_widget'  => '</div>',
+           'before_title'  => '<h6>',
+           'after_title'   => '</h6>',
+         )
+     );
+  }
     add_action( 'widgets_init', 'reach_widgets_init' );
 /* next put widget area in at the begining of the footer.php
 /* mods

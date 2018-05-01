@@ -16,7 +16,7 @@
   require_once(get_stylesheet_directory().'/custom/branding.php');
   require_once(get_stylesheet_directory().'/custom/tribe_events.php');
   require_once(get_stylesheet_directory().'/custom/hide_thumb_metabox.php');
-  //require_once(get_stylesheet_directory().'/custom/bottom-CTA.php');
+  require_once(get_stylesheet_directory().'/custom/bottom-CTA.php');
 
 
   add_filter( 'flamingo_map_meta_cap', 'reach_flamingo_map_meta_cap' );

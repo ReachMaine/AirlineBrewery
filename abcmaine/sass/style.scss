@@ -230,27 +230,16 @@ div.mobile-menu ul#mobile-menu {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+// reach-above-footer
+#reach-above-footer {
+	background-color: rgba(0, 0, 0, 0.8);
+	.widget {
+		margin-bottom: 12px;
+		margin-top: 12px;
+	}
+}
 // footer
-#bottom-widgets {
-	background-color: rgba(0, 0, 0, .7) !important;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	.one-third:nth-child(2){
-		padding-left: 3%;
-		padding-right: 3%;
-		img {
-			display: none;
-		}
-	}
-	.column-block:not(:first-child){
-		margin-left: 2%;
-	}
-	.tatsu-icon-group {
-		text-align: left !important;
-	}
-	.tatsu-icon-shortcode {
-		margin-left: 0px !important;
-	}
+footer .footer-menu { // menu in footer.
 	ul#menu-main-menu {
 		display: flex;
 		flex-wrap: wrap;
@@ -259,8 +248,13 @@ div.mobile-menu ul#mobile-menu {
 			padding-left: 15px;
 			font-weight: bold;
 			font-size: 1.1em;
+			margin-bottom: 0px;
 			a {
 				left:0px;
+				color: $abc-widget-font-color;
+				img {
+					display: none;
+				}
 			}
 			a:hover {
 				color: white;
@@ -271,6 +265,30 @@ div.mobile-menu ul#mobile-menu {
 		}
 		li:before{
 			content: none;
+		}
+	}
+}
+#bottom-widgets {
+	background-color: rgba(0, 0, 0, .7) !important;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	.one-third:nth-child(2){
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	.column-block:not(:first-child){
+		margin-left: 2%;
+	}
+	.tatsu-icon-group {
+		text-align: left !important;
+	}
+	.tatsu-icon-shortcode {
+		margin-left: 0px !important;
+	}
+	#mc_embed_signup form {
+		text-align: left;
+		#mc-embedded-subscribe {
+			padding-top: 4px;
 		}
 	}
 }

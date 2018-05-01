@@ -64,7 +64,9 @@
 			}
 		}
 	}
+
 	#bottom-widgets {
+		text-align: center;
 		.tatsu-icon-group {
 		text-align: center !important;
 		}
@@ -81,9 +83,14 @@
 		}
 		.one-third:nth-child(2){
 			width: 51%;
+
 		}
 		.one-third:nth-child(3){
 			width: 20%;
+		}
+		.abc-widget-center { // center widget
+			max-width:42%;
+			margin: auto;
 		}
 	}
 }
