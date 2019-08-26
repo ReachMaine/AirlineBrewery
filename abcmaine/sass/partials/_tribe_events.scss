@@ -1,6 +1,26 @@
 /* styling for tribe-events */
 
+// month styling
+#tribe-events {
+  #tribe-events-content-wrapper {
 
+    .tribe-bar-disabled {
+      display: none;
+    }
+    #tribe-events-content.tribe-events-month {
+      .tribe-events-notices {
+        display: none;
+      }
+      .tribe-events-calendar { // table
+        background-color: white;
+        td:hover {
+          box-shadow: 0 0 10px $abc-gold-font;
+        }
+      }
+    }
+
+  }
+}
 // list styling
 #tribe-events {
   .tribe-events-list {
