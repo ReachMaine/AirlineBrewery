@@ -147,12 +147,17 @@ img.menu-icon-gold {
 	opacity: 0;
 }
 
-#navigation a img{
-	transition: none;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition:  none;
-	-ms-transition: none;
+#navigation {
+	ul.sub-menu {
+		left: 0px;
+	}
+	a img {
+		transition: none;
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition:  none;
+		-ms-transition: none;
+	}
 }
 
 div.mobile-menu ul#mobile-menu {
@@ -265,6 +270,9 @@ footer .footer-menu { // menu in footer.
 		}
 		li:before{
 			content: none;
+		}
+		.sub-menu {
+			display: none;
 		}
 	}
 }

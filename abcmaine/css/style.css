@@ -214,6 +214,8 @@ img.menu-icon {
 img.menu-icon-gold {
   opacity: 0; }
 
+#navigation ul.sub-menu {
+  left: 0px; }
 #navigation a img {
   transition: none;
   -webkit-transition: none;
@@ -308,6 +310,8 @@ footer .footer-menu ul#menu-main-menu {
     padding-left: 0px; }
   footer .footer-menu ul#menu-main-menu li:before {
     content: none; }
+  footer .footer-menu ul#menu-main-menu .sub-menu {
+    display: none; }
 
 #bottom-widgets {
   background-color: rgba(0, 0, 0, 0.7) !important;
