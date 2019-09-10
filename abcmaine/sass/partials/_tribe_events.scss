@@ -25,13 +25,15 @@
         }
           .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after,
           .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
-            padding-left: 4px;
+            //padding-left: 4px;
           }
 
-        .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after {
+        //.tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after {
+        .tribe_events.type-tribe_events.tribe-events-venue-407:after {
           content: url('https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/pub-30-gold.png');
         }
-        .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+        //.tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+        .tribe_events.type-tribe_events.tribe-events-venue-408:after {
           content: url('https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/brewery-30-gold.png');
         }
 
@@ -75,7 +77,12 @@
       .tribe-events-schedule h2 {
         color: $abc-white-font;
       }
-
+      .tribe-events-single-event-description.tribe-events-content {
+        color: $abc-white-font;
+        h4 {
+            color: $abc-white-font;
+        }
+      }
       .tribe-events-single-section.tribe-events-event-meta  {
         background: transparent;
         border: 0px;
