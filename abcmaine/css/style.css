@@ -90,9 +90,12 @@ article.category-ales .beer_ibu {
     box-shadow: 0 0 10px #fec524; }
   #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe-events-month-event-title a {
     color: #2c2c2c; }
-  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-407:after {
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after,
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+    padding-left: 4px; }
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after {
     content: url("https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/pub-30-gold.png"); }
-  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-408:after {
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
     content: url("https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/brewery-30-gold.png"); }
 
 #tribe-events .tribe-events-list .tribe-events-page-title {
@@ -112,10 +115,6 @@ article.category-ales .beer_ibu {
     color: #fec524; }
   #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-schedule h2 {
     color: #efefef; }
-  #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-event-description.tribe-events-content {
-    color: #efefef; }
-    #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-event-description.tribe-events-content h4 {
-      color: #efefef; }
   #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta {
     background: transparent;
     border: 0px; }
