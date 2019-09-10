@@ -80,12 +80,23 @@ article.category-ales .beer_ibu {
 /* styling for tribe-events */
 #tribe-events #tribe-events-content-wrapper .tribe-bar-disabled {
   display: none; }
+#tribe-events #tribe-events-content-wrapper td.tribe-events-present div[id*="tribe-events-daynum-"] {
+  background-color: #fec524; }
 #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-notices {
   display: none; }
 #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar {
   background-color: white; }
   #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar td:hover {
     box-shadow: 0 0 10px #fec524; }
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe-events-month-event-title a {
+    color: #2c2c2c; }
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after,
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+    padding-left: 4px; }
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after {
+    content: url("https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/pub-30-gold.png"); }
+  #tribe-events #tribe-events-content-wrapper #tribe-events-content.tribe-events-month .tribe-events-calendar .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+    content: url("https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/brewery-30-gold.png"); }
 
 #tribe-events .tribe-events-list .tribe-events-page-title {
   display: none; }
@@ -109,6 +120,10 @@ article.category-ales .beer_ibu {
     border: 0px; }
     #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta .tribe-events-single-section-title {
       color: #efefef; }
+    #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta dl {
+      color: #efefef; }
+    #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta .tribe-events-abbr {
+      text-decoration-line: none !important; }
 #tribe-events-content.tribe-events-single #tribe-events-footer {
   border-top: 0px; }
 

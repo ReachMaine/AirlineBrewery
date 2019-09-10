@@ -7,15 +7,34 @@
     .tribe-bar-disabled {
       display: none;
     }
+    td.tribe-events-present div[id*="tribe-events-daynum-"] {
+      background-color: $abc-gold-font; // current day bkg
+    }
     #tribe-events-content.tribe-events-month {
       .tribe-events-notices {
         display: none;
       }
-      .tribe-events-calendar { // table
+      .tribe-events-calendar { // table = calendar
         background-color: white;
         td:hover {
           box-shadow: 0 0 10px $abc-gold-font;
         }
+
+        .tribe-events-month-event-title a {
+          color: $abc-dark-font;
+        }
+          .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after,
+          .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+            padding-left: 4px;
+          }
+
+        .tribe_events.type-tribe_events.tribe-events-venue-407 .tribe-events-month-event-title a:after {
+          content: url('https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/pub-30-gold.png');
+        }
+        .tribe_events.type-tribe_events.tribe-events-venue-408 .tribe-events-month-event-title a:after {
+          content: url('https://www.abcmaine.beer/wp-content/themes/abcmaine/images/menu-icons/brewery-30-gold.png');
+        }
+
       }
     }
 
@@ -63,6 +82,12 @@
         .tribe-events-single-section-title {
 
           color:  $abc-white-font;
+        }
+        dl {
+          color: $abc-white-font;
+        }
+        .tribe-events-abbr {
+            text-decoration-line: none!important;
         }
       }
     }
