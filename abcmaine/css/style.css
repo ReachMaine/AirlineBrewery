@@ -152,7 +152,8 @@ article.category-ales .beer_ibu {
 .tatsu-icon-group {
   display: inline; }
   .tatsu-icon-group .tatsu-icon-shortcode {
-    padding-left: 5px; }
+    padding-left: 5px;
+    margin-right: 0px !important; }
 
 .abc-social {
   width: 25px;
@@ -191,6 +192,9 @@ img.abc-social {
   display: inline !important;
   float: right !important;
   padding-right: 30px !important; }
+
+.style4 .logo {
+  margin-left: 0px; }
 
 .logo {
   display: inline !important;
