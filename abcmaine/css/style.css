@@ -298,6 +298,10 @@ div.mobile-menu ul#mobile-menu {
 .sharedaddy h3.sd-title {
   color: #dadada; }
 
+.tatsu-section.abc-sec-wide {
+  max-width: 90%;
+  margin: auto; }
+
 /** footer **/
 #reach-bottom-cta {
   margin-top: 40px;
@@ -458,7 +462,7 @@ footer .footer-menu ul#menu-main-menu {
     right: 31px; }
 
   .abc-menu-contact img {
-    right: 3px; }
+    right: 24px; }
 
   .single-post .style2-blog article .post-thumb {
     width: 60%;
