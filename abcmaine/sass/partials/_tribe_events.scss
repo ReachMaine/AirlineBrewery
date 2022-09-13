@@ -86,6 +86,9 @@
         dl {
           color: $abc-white-font;
         }
+        dt {
+          display: none;
+        }
         .tribe-events-abbr {
             text-decoration-line: none!important;
         }
@@ -112,6 +115,25 @@
   }
 }
 
+.tribe-events-visuallyhidden {
+  display: none;
+}
+
+.tribe-common a.tribe-common-c-btn-border-small:hover, 
+.tribe-common .tribe-common-c-btn-border-small:hover {
+  color: #777777;
+}
+// tooltip
+.tribe-events-calendar-month__calendar-event-tooltip-description.tribe-common-b3,
+.tooltipster-base.tribe-events-tooltip-theme .tooltipster-box .tooltipster-content {
+  color: #777777;
+
+}
+// subscribe drop down...
+.tribe-events-c-subscribe-dropdown__content ul.tribe-events-c-subscribe-dropdown__list li a {
+  color: #777777;
+}
+
 // mobile
 @media only screen and (max-width: 768px) {
   .single-tribe_events .tribe-events-schedule,
@@ -123,3 +145,5 @@
     padding: 0px;
   }
 }
+
+

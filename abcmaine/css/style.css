@@ -122,6 +122,8 @@ article.category-ales .beer_ibu {
       color: #efefef; }
     #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta dl {
       color: #efefef; }
+    #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta dt {
+      display: none; }
     #tribe-events-content.tribe-events-single .abc-single-event .tribe-events-single-section.tribe-events-event-meta .tribe-events-abbr {
       text-decoration-line: none !important; }
 #tribe-events-content.tribe-events-single #tribe-events-footer {
@@ -131,6 +133,20 @@ article.category-ales .beer_ibu {
   .tribe-events-list .tribe-events-loop .abc-event-wrap .abc-event-title-wrap {
     width: 65%;
     float: left; } }
+.tribe-events-visuallyhidden {
+  display: none; }
+
+.tribe-common a.tribe-common-c-btn-border-small:hover,
+.tribe-common .tribe-common-c-btn-border-small:hover {
+  color: #777777; }
+
+.tribe-events-calendar-month__calendar-event-tooltip-description.tribe-common-b3,
+.tooltipster-base.tribe-events-tooltip-theme .tooltipster-box .tooltipster-content {
+  color: #777777; }
+
+.tribe-events-c-subscribe-dropdown__content ul.tribe-events-c-subscribe-dropdown__list li a {
+  color: #777777; }
+
 @media only screen and (max-width: 768px) {
   .single-tribe_events .tribe-events-schedule,
   .tribe-events-loop .tribe-events-event-meta {
@@ -146,6 +162,9 @@ article.category-ales .beer_ibu {
 
 #content {
   background: none !important; }
+
+.be-themes-comments {
+  display: none; }
 
 /*** slidebar in oshine slidebar is above main content *** */
 /* Top Bar */
@@ -474,3 +493,5 @@ footer .footer-menu ul#menu-main-menu {
     margin-left: 10%; }
   .untappd-menu .ut-menu-standard .menu-items-container .menu-item .beer .beer-details {
     width: 73%; } }
+
+/*# sourceMappingURL=style.css.map */
