@@ -1,0 +1,35 @@
+/* gravity forms styling */
+.gform_wrapper {
+	background-color: rgba(207, 207, 207, 0.88);
+	color: black;
+	padding: 30px;
+	.gf_progressbar.gf_progressbar_blue	.gf_progressbar_percentage.percentbar_blue {
+		background-color: $abc-gold-font!important;;
+
+	}
+	.gform_fields  { // ul
+		/* .gfield {
+				input,
+				textarea {
+					background-color: #f8f6f4;
+					font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+					border: 0px;
+
+				}
+			}*/
+		} // fields
+
+	.gform_page_footer {
+		.button {
+			border: 3px solid white;
+			font-size: 17px;
+		}
+		.button:hover {
+			border-color: $abc-gold-font;
+			background-color: white;
+			color: black;
+		}
+
+	}
+
+} // gform wrapper

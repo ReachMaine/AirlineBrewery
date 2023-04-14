@@ -77,6 +77,31 @@ article.category-ales .beer_ibu {
     #page-content .imp-wrapper-match2 .imp-normal-heading .imp-title-heading {
       max-width: 100% !important; }
 
+/* gravity forms styling */
+.gform_wrapper {
+  background-color: rgba(207, 207, 207, 0.88);
+  color: black;
+  padding: 30px; }
+  .gform_wrapper .gf_progressbar.gf_progressbar_blue .gf_progressbar_percentage.percentbar_blue {
+    background-color: #fec524 !important; }
+  .gform_wrapper .gform_fields {
+    		/* .gfield {
+    				input,
+    				textarea {
+    					background-color: #f8f6f4;
+    					font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    					border: 0px;
+    
+    				}
+    			}*/ }
+  .gform_wrapper .gform_page_footer .button {
+    border: 3px solid white;
+    font-size: 17px; }
+  .gform_wrapper .gform_page_footer .button:hover {
+    border-color: #fec524;
+    background-color: white;
+    color: black; }
+
 /* styling for tribe-events */
 #tribe-events #tribe-events-content-wrapper .tribe-bar-disabled {
   display: none; }
