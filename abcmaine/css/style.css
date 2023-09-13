@@ -385,6 +385,10 @@ footer .footer-menu ul#menu-main-menu {
   background-color: rgba(0, 0, 0, 0.7) !important;
   padding-top: 30px;
   padding-bottom: 30px; }
+  #bottom-widgets #bottom-widgets-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
   #bottom-widgets .one-third:nth-child(2) {
     padding-left: 3%;
     padding-right: 3%; }
@@ -508,6 +512,9 @@ footer .footer-menu ul#menu-main-menu {
 
   .abc-menu-contact img {
     right: 24px; }
+
+  .abc-menu-finns img {
+    right: 36px; }
 
   .single-post .style2-blog article .post-thumb {
     width: 60%;

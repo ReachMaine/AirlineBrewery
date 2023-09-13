@@ -292,6 +292,11 @@ footer .footer-menu { // menu in footer.
 	background-color: rgba(0, 0, 0, .7) !important;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	#bottom-widgets-wrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 	.one-third:nth-child(2){
 		padding-left: 3%;
 		padding-right: 3%;
