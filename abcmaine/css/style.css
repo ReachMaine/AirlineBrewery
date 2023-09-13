@@ -514,7 +514,8 @@ footer .footer-menu ul#menu-main-menu {
     right: 24px; }
 
   .abc-menu-finns img {
-    right: 36px; }
+    right: 68px;
+    width: 50px; }
 
   .single-post .style2-blog article .post-thumb {
     width: 60%;
