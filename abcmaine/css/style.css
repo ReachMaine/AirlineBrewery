@@ -231,6 +231,12 @@ img.abc-social {
 .abc-social-tripadvisor {
   margin-left: 10px; }
 
+#topbar-menu li.abc-topbarmenu-item a {
+  color: #fec524 !important;
+  padding: 0 5px; }
+#topbar-menu li.abc-topbarmenu-item a:hover {
+  color: white !important; }
+
 /*  header stuff - here */
 /* fixing mobile menu */
 #header-controls-right {
