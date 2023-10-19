@@ -233,9 +233,12 @@ img.abc-social {
 
 #topbar-menu li.abc-topbarmenu-item a {
   color: #fec524 !important;
-  padding: 0 5px; }
+  padding: 0 5px;
+  font-weight: bold; }
 #topbar-menu li.abc-topbarmenu-item a:hover {
   color: white !important; }
+#topbar-menu li:after {
+  content: " \02022 "; }
 
 /*  header stuff - here */
 /* fixing mobile menu */

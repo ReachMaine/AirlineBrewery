@@ -88,11 +88,14 @@ img.abc-social {
 	li.abc-topbarmenu-item a {
 		color: #fec524!important;
 		padding: 0 5px;
+		font-weight: bold;
 	}
 	li.abc-topbarmenu-item a:hover {
 		color: white!important;
 	}
-
+	li:after {
+		content: " \02022 ";
+	}
 }
 /*  header stuff - here */
 
