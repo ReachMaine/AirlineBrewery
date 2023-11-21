@@ -24,6 +24,16 @@
            'after_title'   => '</h6>',
          )
      );
+
+     register_sidebar( array(
+        'name' => 'Topbar Center',
+        'id' => 'topbar-center',
+        'description'   => __( 'Center of topbar', 'be-themes' ),
+        'before_widget' => '<div id="%1$s" class=" %2$s">',
+        'after_widget' => '</div> <!-- end .widget -->',
+        'before_title' => '<h4 class="widgettitle">',
+        'after_title' => '</h4>',
+      ) );
   }
     add_action( 'widgets_init', 'reach_widgets_init' );
 /* next put widget area in at the begining of the footer.php

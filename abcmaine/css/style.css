@@ -231,6 +231,19 @@ img.abc-social {
 .abc-social-tripadvisor {
   margin-left: 10px; }
 
+#header-top-bar #header-top-bar-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  #header-top-bar #header-top-bar-wrap #header-top-bar-center {
+    padding: 10px 20px; }
+
+@media only screen and (max-width: 960px) {
+  #header-top-bar #header-top-bar-wrap {
+    display: block; }
+    #header-top-bar #header-top-bar-wrap #header-top-bar-center {
+      text-align: center;
+      width: 100%; } }
 #topbar-menu li.abc-topbarmenu-item a {
   color: #fec524 !important;
   padding: 0 5px;
